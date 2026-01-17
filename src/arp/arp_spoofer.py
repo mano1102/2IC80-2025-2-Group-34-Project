@@ -5,9 +5,9 @@ import time
 # ARP Spoofing
 
 
-victim_ip   = "10.0.0.189"   # VM IP
-gateway_ip  = "10.0.0.1"     # NAT gateway
-attacker_mac = "00:50:56:c0:00:08" # Attacker MAC address
+victim_ip   = "10.0.0.194"   # VM IP
+gateway_ip  = "10.0.0.191"     # NAT gateway
+attacker_mac = "00:0c:29:a8:7a:9b" # Attacker MAC address
 
 # Create ARP replies
 arp_to_victim = ARP(
